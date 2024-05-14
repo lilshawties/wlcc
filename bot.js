@@ -109,7 +109,7 @@ client.on('guildMemberAdd', async member => {
 
       const welcomeMessage = `Hello ${member}!`;
 
-      const welcomeMessageDm = `💝 This message has been sent from **${member.guild.name}!**`;
+      const welcomeMessageDm = `bomie gửi thư từ **${member.guild.name}!**`;
       const embed = new EmbedBuilder()
           .setTitle(title)
           .setDescription(description)
