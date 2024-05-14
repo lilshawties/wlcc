@@ -107,7 +107,7 @@ client.on('guildMemberAdd', async member => {
 
       const { title, description, image, footer, color, footerURL, thumbnail, authorName, authorURL, authorIcon } = processedMessageData;
 
-      const welcomeMessage = `Hello ${member}!`;
+      const welcomeMessage = `xin chao ${member}!`;
 
       const welcomeMessageDm = `bomie gửi thư từ **${member.guild.name}!**`;
       const embed = new EmbedBuilder()
