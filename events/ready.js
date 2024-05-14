@@ -46,8 +46,8 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 const totalMembers = client.guilds.cache.reduce((total, guild) => total + guild.memberCount, 0);
 setInterval(() => client.user.setActivity({ 
-  name:`${totalMembers} .𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`, 
-  type: ActivityType.Watching }), 10000);
+  name:`with ${totalMembers} .𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`, 
+  type: ActivityType.Playing }), 10000);
   
 client.errorLog = config.errorLog
   
