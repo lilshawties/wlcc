@@ -48,7 +48,7 @@ const totalMembers = client.guilds.cache.reduce((total, guild) => total + guild.
 setInterval(() => client.user.setActivity({ 
   
   name:`with ${totalMembers} .𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`,
-  type: ActivityType.Watching }),10000);
+  type: ActivityType.Playing }),10000);
   
   
 client.errorLog = config.errorLog
